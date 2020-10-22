@@ -1,0 +1,101 @@
+body{
+
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+
+
+.crd{
+
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 4%;
+    margin-top: 10%;
+}
+
+.toptxt{
+
+    font-family: 'Krona One', sans-serif;
+    
+}
+
+
+.crdtxt{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+
+
+.space{
+    margin-left: 6%;
+}
+
+.btnsize{
+   font-size: small;
+}
+
+.wrapper {
+
+    max-height: 120px;
+    border: 1px solid black;
+    display: flex;
+    overflow-x: auto;
+    margin-top: 10%;
+    cursor: grab;
+}
+
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+    color: silver;
+}
+
+.wrapper .item{
+
+    min-width: 150px;
+    height: 100px;
+    line-height: 110px;
+    text-align: center;
+    background-color: transparent;
+    margin-right: 20px;
+    
+
+}
+
+.wrapper h6{
+    font-size: 10px;
+    color: #615f59;
+    margin-left: 20px;
+    float: inline-start;
+    text-align: center;
+}
+
+
+.wrapper h2{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 30px;
+}
+
+.wrapper h4{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 15px;
+  float: left;
+    margin-top: 0%;
+    color: #1f1f1f;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
